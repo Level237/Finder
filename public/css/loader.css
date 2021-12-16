@@ -79,7 +79,8 @@
     margin-top: -41px;
     height: 50px;
   }
-  
+
+
   .progress-br.done .progress__item {
     opacity: 0;
     -webkit-animation: done 3.1s;
@@ -96,7 +97,7 @@
     -webkit-animation: done 3.1s;
     transition: opacity 0.15s linear 3.1s;
   }
-  
+
   @-webkit-keyframes done {
     10% {
       transform: scale(1.1);
@@ -131,7 +132,7 @@
       -webkit-transform: rotate(360deg);
     }
   }
-  
+
   .shadow{
       box-shadow: none !important;
   }
