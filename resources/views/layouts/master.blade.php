@@ -4,22 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/loader.css')}}">
-    <style>
-        .brand{
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin: -35px 0 0 -56px;
-            width: 112px;
-            height: 70px;
-            *zoom: 1;
-}
-    </style>
-    <link rel="stylesheet" href="{{asset('css/style.css')}}">
 
-    <title>@yield('title')</title>
+      <!-- Site Icons -->
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{asset('css/home_style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
+    <link rel="stylesheet" href="{{asset('css/loader.css')}}">
+     <script src="{{asset('js/modernizer.js')}}"></script>
+
+
+     <title>@yield('title')</title>
 
 </head>
 <body>

@@ -5,21 +5,7 @@
 
 @section('content')
 
-
-<!-- LOADER -->
-<div id="preloader">
-
-    <div class="loader-container">
-        <div class="brand">
-            <h1 class="text-white text-center">Finder</h1>
-        </div>
-        <div class="progress-br float shadow">
-            <div class="progress__item"></div>
-        </div>
-
-    </div>
-</div>
-<!-- END LOADER -->
+@include('layouts.loader')
 
 @include('layouts.navbar.navbar')
 
@@ -32,14 +18,14 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-            <div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+            <div id="home" class="first-section" style="background-image:url({{asset('images/search.jpg')}});">
                 <div class="dtab">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12 col-sm-12 text-center">
                                 <div class="big-tagline">
-                                    <h2><strong>Finder</strong> Company</h2>
-                                    <p class="lead">With Landigoo responsive landing page template, you can promote your all hosting, domain and email services. </p>
+                                    <h2><strong>Welcome </strong>To Finder</h2>
+                                    <p class="lead">Securiser et rechercher vos documents et objet de maniere  numerique</p>
                                         <a href="#" class="hover-btn-new"><span>Contact Us</span></a>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                         <a href="#" class="hover-btn-new"><span>Read More</span></a>
@@ -51,7 +37,7 @@
             </div><!-- end section -->
         </div>
         <div class="carousel-item">
-            <div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+            <div id="home" class="first-section" style="background-image:url({{asset('images/slider-02.jpg')}}');">
                 <div class="dtab">
                     <div class="container">
                         <div class="row">
@@ -70,7 +56,7 @@
             </div><!-- end section -->
         </div>
         <div class="carousel-item">
-            <div id="home" class="first-section" style="background-image:url('images/slider-03.jpg');">
+            <div id="home" class="first-section" style="background-image:url({{asset('images/slider-03.jpg')}});">
                 <div class="dtab">
                     <div class="container">
                         <div class="row">
