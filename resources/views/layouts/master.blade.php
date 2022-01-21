@@ -10,11 +10,11 @@
       <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/home_style.css')}}">
+   <link rel="stylesheet" href="{{asset('css/home_style.css')}}"> 
     <link rel="stylesheet" href="{{asset('css/responsive.css')}}">
     <link rel="stylesheet" href="{{asset('css/loader.css')}}">
      <script src="{{asset('js/modernizer.js')}}"></script>
-
+    
 
      <title>@yield('title')</title>
 
